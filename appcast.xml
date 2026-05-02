@@ -1,13 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss
-    version="2.0"
-    xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
->
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
     <channel>
         <title>wisp updates</title>
         <link>https://tanzirulhuda.github.io/wisp-updates</link>
         <description>Production appcast feed for wisp.</description>
         <language>en</language>
+        <item>
+            <title>1.0.0</title>
+            <pubDate>Sat, 02 May 2026 18:15:37 +0600</pubDate>
+            <link>https://tanzirulhuda.github.io/wisp-updates</link>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/tanzirulhuda/wisp-updates/releases/download/v1.0.0/wisp.dmg" length="6299694" type="application/octet-stream" sparkle:edSignature="zkCOGZ62pShYuObheuPtA6Dke+SqWmiik5Cz1zRelQleotoLPm7+5ggnWyCZx6swA/maw5NJJK0OaDlrlz3xCg=="/>
+        </item>
     </channel>
 </rss>
