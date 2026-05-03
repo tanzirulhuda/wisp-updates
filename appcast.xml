@@ -6,6 +6,15 @@
         <description>Production appcast feed for wisp.</description>
         <language>en</language>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Sat, 02 May 2026 18:41:35 +0600</pubDate>
+            <link>https://tanzirulhuda.github.io/wisp-updates</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/tanzirulhuda/wisp-updates/releases/download/v1.0.1/wisp.dmg" length="9211999" type="application/octet-stream" sparkle:edSignature="kFpqMs2REQS7Hujb/gE/KGwbJvJ2KBogEVwmwAZN2HR8xwbGr4IRC1JtMQXU+oI+Iw6Vzhh9NajzJoQpX+agDA=="/>
+        </item>
+        <item>
             <title>1.0.0</title>
             <pubDate>Sat, 02 May 2026 18:15:37 +0600</pubDate>
             <link>https://tanzirulhuda.github.io/wisp-updates</link>
