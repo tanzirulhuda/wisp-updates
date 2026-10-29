@@ -6,6 +6,28 @@
         <description>Production appcast feed for wisp.</description>
         <language>en</language>
         <item>
+            <title>1.1.1</title>
+            <pubDate>Thu, 29 Oct 2026 15:43:41 +0600</pubDate>
+            <link>https://tanzirulhuda.github.io/wisp-updates</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# wisp 1.1.1
+
+## 🐞 Bug fixes
+
+- Fixed the Settings sidebar on macOS 27: the selected item was
+  unreadable (white text on a light background). Selection is now
+  always legible in light and dark mode.
+- Fixed Settings sidebar rows only responding when clicking exactly
+  on the text — the whole row is clickable again.
+]]></description>
+            <enclosure url="https://github.com/tanzirulhuda/wisp-updates/releases/download/v1.1.1/wisp-1.1.1.dmg" length="8711323" type="application/octet-stream" sparkle:edSignature="XIAgMV3vKJo5N4xuQf/TJ/3VnxUJ87I0/sgq1SfK52Uyl+mxoaTzAl3utEbHzQNRL0zCaYwO38WyQue5G1OgCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/tanzirulhuda/wisp-updates/releases/download/v1.1.1/wisp5-4.delta" sparkle:deltaFrom="4" length="898474" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="975840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="E74wkNJ0/E7ENgLi42up/f2mHZYMsx8FXSljpKa3qa0AO32LGEms+I/kX+cqUUEkcfqRzspvUvxfbVX4PFzBDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Sat, 02 May 2026 18:41:35 +0600</pubDate>
             <link>https://tanzirulhuda.github.io/wisp-updates</link>
@@ -22,15 +44,6 @@
             <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/tanzirulhuda/wisp-updates/releases/download/v1.0.2/wisp.dmg" length="9213921" type="application/octet-stream" sparkle:edSignature="cgWuOA3J7dKtWbHNTcpwnKNeoBHLFAv40r81OIRiP872e17Nnsep32AxbcI0ENfzzQWAOVEoBbXtWLzLfvwIAA=="/>
-        </item>
-        <item>
-            <title>1.0.1</title>
-            <pubDate>Sat, 02 May 2026 18:41:35 +0600</pubDate>
-            <link>https://tanzirulhuda.github.io/wisp-updates</link>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/tanzirulhuda/wisp-updates/releases/download/v1.0.1/wisp.dmg" length="9211999" type="application/octet-stream" sparkle:edSignature="kFpqMs2REQS7Hujb/gE/KGwbJvJ2KBogEVwmwAZN2HR8xwbGr4IRC1JtMQXU+oI+Iw6Vzhh9NajzJoQpX+agDA=="/>
         </item>
     </channel>
 </rss>
